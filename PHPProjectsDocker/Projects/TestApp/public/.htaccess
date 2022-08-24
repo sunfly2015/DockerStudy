@@ -1,0 +1,7 @@
+if (!-e $request_filename) {
+  #如果服务器支持PATH_INFO用下面这行
+  #rewrite  ^/(.*)$  /index.php/$1  last;
+  #如果服务器不支持PATH_INFO用下面这行
+  rewrite ^/(.*)$  /index.php?s=$1  last;
+  break;
+}

@@ -1,0 +1,122 @@
+2022-08-24 13:16:27,315 INFO DEFAULT_GROUP@@mscode-auth is changed, add it to push queue.
+
+2022-08-24 13:16:27,377 INFO serviceName: DEFAULT_GROUP@@mscode-auth changed, schedule push for: 127.0.0.1:60434, agent: Nacos-Java-Client:v1.4.1, key: 127.0.0.1,60434,1135391594102333
+
+2022-08-24 13:16:27,384 INFO send udp packet: 127.0.0.1,60434,1135391594102333
+
+2022-08-24 13:16:37,387 INFO retry to push data, key: 127.0.0.1,60434,1135391594102333
+
+2022-08-24 13:16:38,966 INFO DEFAULT_GROUP@@mscode-gateway is changed, add it to push queue.
+
+2022-08-24 13:16:38,967 INFO DEFAULT_GROUP@@mscode-account-service is changed, add it to push queue.
+
+2022-08-24 13:16:38,969 INFO serviceName: DEFAULT_GROUP@@mscode-account-service changed, schedule push for: 127.0.0.1:60434, agent: Nacos-Java-Client:v1.4.1, key: 127.0.0.1,60434,1135403245710052
+
+2022-08-24 13:16:38,969 INFO send udp packet: 127.0.0.1,60434,1135403245710052
+
+2022-08-24 13:16:38,970 INFO serviceName: DEFAULT_GROUP@@mscode-gateway changed, schedule push for: 127.0.0.1:60434, agent: Nacos-Java-Client:v1.4.1, key: 127.0.0.1,60434,1135403245202591
+
+2022-08-24 13:16:38,971 INFO send udp packet: 127.0.0.1,60434,1135403245202591
+
+2022-08-24 13:16:43,171 INFO DEFAULT_GROUP@@mscode-account-service is changed, add it to push queue.
+
+2022-08-24 13:16:43,172 INFO serviceName: DEFAULT_GROUP@@mscode-account-service@@DEFAULT changed, schedule push for: 127.0.0.1:35666, agent: Nacos-Java-Client:v1.4.1, key: 127.0.0.1,35666,1135407450225607
+
+2022-08-24 13:16:43,172 INFO send udp packet: 127.0.0.1,35666,1135407450225607
+
+2022-08-24 13:16:47,387 WARN max re-push times reached, retry times 2, key: 127.0.0.1,60434,1135391594102333
+
+2022-08-24 13:16:47,387 ERROR [PUSH-FAIL] 20073ms, Service{namespace='public', group='DEFAULT_GROUP', name='mscode-auth', ephemeral=true, revision=0}, reason=null, target=127.0.0.1
+
+2022-08-24 13:16:48,971 INFO retry to push data, key: 127.0.0.1,60434,1135403245710052
+
+2022-08-24 13:16:48,971 INFO retry to push data, key: 127.0.0.1,60434,1135403245202591
+
+2022-08-24 13:16:53,173 INFO retry to push data, key: 127.0.0.1,35666,1135407450225607
+
+2022-08-24 13:16:58,971 WARN max re-push times reached, retry times 2, key: 127.0.0.1,60434,1135403245710052
+
+2022-08-24 13:16:58,971 ERROR [PUSH-FAIL] 20004ms, Service{namespace='public', group='DEFAULT_GROUP', name='mscode-account-service', ephemeral=true, revision=1}, reason=null, target=127.0.0.1
+
+2022-08-24 13:16:58,972 WARN max re-push times reached, retry times 2, key: 127.0.0.1,60434,1135403245202591
+
+2022-08-24 13:16:58,972 ERROR [PUSH-FAIL] 20006ms, Service{namespace='public', group='DEFAULT_GROUP', name='mscode-gateway', ephemeral=true, revision=1}, reason=null, target=127.0.0.1
+
+2022-08-24 13:17:03,173 WARN max re-push times reached, retry times 2, key: 127.0.0.1,35666,1135407450225607
+
+2022-08-24 13:17:03,173 ERROR [PUSH-FAIL] 20002ms, Service{namespace='public', group='DEFAULT_GROUP', name='mscode-account-service', ephemeral=true, revision=1}, reason=null, target=127.0.0.1
+
+2022-08-24 13:19:27,431 INFO DEFAULT_GROUP@@mscode-auth is changed, add it to push queue.
+
+2022-08-24 13:19:27,441 INFO serviceName: DEFAULT_GROUP@@mscode-auth changed, schedule push for: 127.0.0.1:60434, agent: Nacos-Java-Client:v1.4.1, key: 127.0.0.1,60434,1135571709742093
+
+2022-08-24 13:19:27,442 INFO send udp packet: 127.0.0.1,60434,1135571709742093
+
+2022-08-24 13:19:37,444 INFO retry to push data, key: 127.0.0.1,60434,1135571709742093
+
+2022-08-24 13:19:45,253 INFO DEFAULT_GROUP@@mscode-account-service is changed, add it to push queue.
+
+2022-08-24 13:19:45,255 INFO serviceName: DEFAULT_GROUP@@mscode-account-service@@DEFAULT changed, schedule push for: 127.0.0.1:35666, agent: Nacos-Java-Client:v1.4.1, key: 127.0.0.1,35666,1135589531482311
+
+2022-08-24 13:19:45,255 INFO send udp packet: 127.0.0.1,35666,1135589531482311
+
+2022-08-24 13:19:47,445 WARN max re-push times reached, retry times 2, key: 127.0.0.1,60434,1135571709742093
+
+2022-08-24 13:19:47,445 ERROR [PUSH-FAIL] 20015ms, Service{namespace='public', group='DEFAULT_GROUP', name='mscode-auth', ephemeral=true, revision=0}, reason=null, target=127.0.0.1
+
+2022-08-24 13:19:51,059 INFO DEFAULT_GROUP@@mscode-gateway is changed, add it to push queue.
+
+2022-08-24 13:19:51,060 INFO serviceName: DEFAULT_GROUP@@mscode-gateway changed, schedule push for: 127.0.0.1:60434, agent: Nacos-Java-Client:v1.4.1, key: 127.0.0.1,60434,1135595338168360
+
+2022-08-24 13:19:51,060 INFO send udp packet: 127.0.0.1,60434,1135595338168360
+
+2022-08-24 13:19:51,059 INFO DEFAULT_GROUP@@mscode-account-service is changed, add it to push queue.
+
+2022-08-24 13:19:51,060 INFO serviceName: DEFAULT_GROUP@@mscode-account-service changed, schedule push for: 127.0.0.1:60434, agent: Nacos-Java-Client:v1.4.1, key: 127.0.0.1,60434,1135595338676029
+
+2022-08-24 13:19:51,061 INFO send udp packet: 127.0.0.1,60434,1135595338676029
+
+2022-08-24 13:19:55,256 INFO retry to push data, key: 127.0.0.1,35666,1135589531482311
+
+2022-08-24 13:20:01,061 INFO retry to push data, key: 127.0.0.1,60434,1135595338168360
+
+2022-08-24 13:20:01,061 INFO retry to push data, key: 127.0.0.1,60434,1135595338676029
+
+2022-08-24 13:20:05,256 WARN max re-push times reached, retry times 2, key: 127.0.0.1,35666,1135589531482311
+
+2022-08-24 13:20:05,257 ERROR [PUSH-FAIL] 20004ms, Service{namespace='public', group='DEFAULT_GROUP', name='mscode-account-service', ephemeral=true, revision=1}, reason=null, target=127.0.0.1
+
+2022-08-24 13:20:11,061 WARN max re-push times reached, retry times 2, key: 127.0.0.1,60434,1135595338168360
+
+2022-08-24 13:20:11,061 ERROR [PUSH-FAIL] 20002ms, Service{namespace='public', group='DEFAULT_GROUP', name='mscode-gateway', ephemeral=true, revision=1}, reason=null, target=127.0.0.1
+
+2022-08-24 13:20:11,062 WARN max re-push times reached, retry times 2, key: 127.0.0.1,60434,1135595338676029
+
+2022-08-24 13:20:11,062 ERROR [PUSH-FAIL] 20003ms, Service{namespace='public', group='DEFAULT_GROUP', name='mscode-account-service', ephemeral=true, revision=1}, reason=null, target=127.0.0.1
+
+2022-08-24 13:43:21,897 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='mscode-auth', ephemeral=true, revision=1}
+
+2022-08-24 13:43:22,358 INFO DEFAULT_GROUP@@mscode-auth is changed, add it to push queue.
+
+2022-08-24 13:43:22,363 INFO serviceName: DEFAULT_GROUP@@mscode-auth@@DEFAULT changed, schedule push for: 127.0.0.1:40899, agent: Nacos-Java-Client:v1.4.1, key: 127.0.0.1,40899,1137006636689317
+
+2022-08-24 13:43:22,363 INFO DEFAULT_GROUP@@mscode-auth is changed, add it to push queue.
+
+2022-08-24 13:43:22,363 INFO serviceName: DEFAULT_GROUP@@mscode-auth changed, schedule push for: 127.0.0.1:60434, agent: Nacos-Java-Client:v1.4.1, key: 127.0.0.1,60434,1137006641487385
+
+2022-08-24 13:43:22,363 INFO send udp packet: 127.0.0.1,40899,1137006636689317
+
+2022-08-24 13:43:22,369 INFO send udp packet: 127.0.0.1,60434,1137006641487385
+
+2022-08-24 13:43:32,369 INFO retry to push data, key: 127.0.0.1,40899,1137006636689317
+
+2022-08-24 13:43:32,370 INFO retry to push data, key: 127.0.0.1,60434,1137006641487385
+
+2022-08-24 13:43:42,370 WARN max re-push times reached, retry times 2, key: 127.0.0.1,40899,1137006636689317
+
+2022-08-24 13:43:42,370 ERROR [PUSH-FAIL] 20012ms, Service{namespace='public', group='DEFAULT_GROUP', name='mscode-auth', ephemeral=true, revision=1}, reason=null, target=127.0.0.1
+
+2022-08-24 13:43:42,372 WARN max re-push times reached, retry times 2, key: 127.0.0.1,60434,1137006641487385
+
+2022-08-24 13:43:42,372 ERROR [PUSH-FAIL] 20009ms, Service{namespace='public', group='DEFAULT_GROUP', name='mscode-auth', ephemeral=true, revision=1}, reason=null, target=127.0.0.1
+

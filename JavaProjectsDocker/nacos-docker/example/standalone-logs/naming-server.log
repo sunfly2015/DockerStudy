@@ -1,0 +1,98 @@
+2022-08-24 13:16:19,381 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-08-24 13:16:19,381 WARN Using naming.distro config to replace core.distro config
+
+2022-08-24 13:16:19,556 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-08-24 13:16:19,559 INFO listen for service meta change
+
+2022-08-24 13:16:19,564 INFO upgrade.state file is not exist
+
+2022-08-24 13:16:23,996 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-08-24 13:16:23,996 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-08-24 13:16:23,997 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-08-24 13:16:23,997 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-08-24 13:16:25,253 INFO Load instance extension handler []
+
+2022-08-24 13:16:26,754 INFO Client connection 127.0.0.1:60434#true connect
+
+2022-08-24 13:16:27,235 INFO Client connection 10.0.4.14:10003#true connect
+
+2022-08-24 13:16:27,235 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='mscode-gateway', ephemeral=true, revision=0}, 10.0.4.14:10003#true
+
+2022-08-24 13:16:27,274 INFO Client connection 10.0.4.14:10008#true connect
+
+2022-08-24 13:16:27,274 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='mscode-account-service', ephemeral=true, revision=0}, 10.0.4.14:10008#true
+
+2022-08-24 13:16:42,634 INFO Client connection 127.0.0.1:35666#true connect
+
+2022-08-24 13:18:42,380 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2022-08-24 13:18:42,415 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2022-08-24 13:18:44,196 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-08-24 13:18:44,197 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-08-24 13:19:14,592 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-08-24 13:19:14,592 WARN Using naming.distro config to replace core.distro config
+
+2022-08-24 13:19:14,725 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-08-24 13:19:14,726 INFO listen for service meta change
+
+2022-08-24 13:19:17,834 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-08-24 13:19:17,834 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-08-24 13:19:17,835 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-08-24 13:19:17,835 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-08-24 13:19:18,948 INFO Load instance extension handler []
+
+2022-08-24 13:19:23,533 INFO Client connection 10.0.4.14:10008#true connect
+
+2022-08-24 13:19:23,533 INFO Client connection 10.0.4.14:10003#true connect
+
+2022-08-24 13:19:23,543 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='mscode-account-service', ephemeral=true, revision=0}, 10.0.4.14:10008#true
+
+2022-08-24 13:19:23,549 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='mscode-gateway', ephemeral=true, revision=0}, 10.0.4.14:10003#true
+
+2022-08-24 13:19:26,868 INFO Client connection 127.0.0.1:60434#true connect
+
+2022-08-24 13:19:44,744 INFO Client connection 127.0.0.1:35666#true connect
+
+2022-08-24 13:43:21,785 INFO Client connection 127.0.0.1:40899#true connect
+
+2022-08-24 13:43:21,896 INFO Client connection 10.0.4.14:10004#true connect
+
+2022-08-24 13:43:21,896 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='mscode-auth', ephemeral=true, revision=0}, 10.0.4.14:10004#true
+

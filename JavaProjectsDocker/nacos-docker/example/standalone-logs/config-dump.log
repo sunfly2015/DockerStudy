@@ -1,0 +1,36 @@
+2022-08-24 13:42:35,275 INFO [dump-task] add task. groupKey=mscode-auth.yml+DEFAULT_GROUP, taskKey=mscode-auth.yml+DEFAULT_GROUP++false+null
+
+2022-08-24 13:42:35,275 INFO [dump-task] add task. groupKey=mscode-activiti-service.yml+DEFAULT_GROUP, taskKey=mscode-activiti-service.yml+DEFAULT_GROUP++false+null
+
+2022-08-24 13:42:35,275 INFO [dump-task] add task. groupKey=mscode-gateway.yml+DEFAULT_GROUP, taskKey=mscode-gateway.yml+DEFAULT_GROUP++false+null
+
+2022-08-24 13:42:35,275 INFO [dump-task] add task. groupKey=mscode-account-service.yml+DEFAULT_GROUP, taskKey=mscode-account-service.yml+DEFAULT_GROUP++false+null
+
+2022-08-24 13:42:35,275 INFO [dump-task] add task. groupKey=mscode-chart-service.yml+DEFAULT_GROUP, taskKey=mscode-chart-service.yml+DEFAULT_GROUP++false+null
+
+2022-08-24 13:42:35,275 INFO [dump-task] add task. groupKey=mscode-generator-service.yml+DEFAULT_GROUP, taskKey=mscode-generator-service.yml+DEFAULT_GROUP++false+null
+
+2022-08-24 13:42:35,275 INFO [dump-task] add task. groupKey=application.yml+DEFAULT_GROUP, taskKey=application.yml+DEFAULT_GROUP++false+null
+
+2022-08-24 13:42:35,275 INFO [dump-task] add task. groupKey=mscode-file-service.yml+DEFAULT_GROUP, taskKey=mscode-file-service.yml+DEFAULT_GROUP++false+null
+
+2022-08-24 13:42:35,275 INFO [dump-task] add task. groupKey=mscode-job.yml+DEFAULT_GROUP, taskKey=mscode-job.yml+DEFAULT_GROUP++false+null
+
+2022-08-24 13:42:35,275 INFO [dump-task] add task. groupKey=mscode-mq.yml+DEFAULT_GROUP, taskKey=mscode-mq.yml+DEFAULT_GROUP++false+null
+
+2022-08-24 13:42:35,276 INFO [dump-task] add task. groupKey=mscode-notification-service.yml+DEFAULT_GROUP, taskKey=mscode-notification-service.yml+DEFAULT_GROUP++false+null
+
+2022-08-24 13:42:35,276 INFO [dump-task] add task. groupKey=mscode-statistics-service.yml+DEFAULT_GROUP, taskKey=mscode-statistics-service.yml+DEFAULT_GROUP++false+null
+
+2022-08-24 13:42:35,277 INFO [dump-task] add task. groupKey=mscode-turbine.yml+DEFAULT_GROUP, taskKey=mscode-turbine.yml+DEFAULT_GROUP++false+null
+
+2022-08-24 13:42:35,277 INFO [dump-task] add task. groupKey=mscode-seata.yml+DEFAULT_GROUP, taskKey=mscode-seata.yml+DEFAULT_GROUP++false+null
+
+2022-08-24 13:42:35,277 INFO [dump-task] add task. groupKey=mscode-bigdata.yml+DEFAULT_GROUP, taskKey=mscode-bigdata.yml+DEFAULT_GROUP++false+null
+
+2022-08-24 13:42:35,275 INFO [dump-task] add task. groupKey=mscode-admin-service.yml+DEFAULT_GROUP, taskKey=mscode-admin-service.yml+DEFAULT_GROUP++false+null
+
+2022-08-24 14:19:34,366 INFO [dump-task] add task. groupKey=mscode-account-service.yml+DEFAULT_GROUP, taskKey=mscode-account-service.yml+DEFAULT_GROUP++false+null
+
+2022-08-24 14:20:02,185 INFO [dump-task] add task. groupKey=mscode-activiti-service.yml+DEFAULT_GROUP, taskKey=mscode-activiti-service.yml+DEFAULT_GROUP++false+null
+
