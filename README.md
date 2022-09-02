@@ -20,6 +20,6 @@
 
 参考 RedisDocker/readme.md
 
-##安装 禅道 容器
+## 安装 禅道 容器
 
 参考 ZentaoDocker/readme.md
