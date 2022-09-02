@@ -29,9 +29,11 @@
 
 3.关于持久化
 
-`volumes:
+(```)
+volumes:
    - /mnt/docker/linshanzentao/zentao:/www/zentaopms
-   - /mnt/docker/linshanzentao/mysqldata:/var/lib/mysql`
+   - /mnt/docker/linshanzentao/mysqldata:/var/lib/mysql
+(```)
 
 物理机的“/mnt/docker/linshanzentao/zentao”目录，映射到容器内“/www/zentaopms”，这是禅道项目目录
 
