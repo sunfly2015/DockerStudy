@@ -1,0 +1,13 @@
+version: "3"
+services:
+   web:
+      container_name: linshan_zentao
+      image: easysoft/zentao:latest
+      ports:
+         - 9001:80
+      volumes:
+         - /mnt/docker/linshanzentao/zentao:/www/zentaopms
+         - /mnt/docker/linshanzentao/mysqldata:/var/lib/mysql
+      restart: always
+      environment:
+         - MYSQL_ROOT_PASSWORD=lszt123
