@@ -49,7 +49,9 @@ volumes:
 
 5.容器内MySQL数据库密码
 
-`environment:
-   - MYSQL_ROOT_PASSWORD=lszt123`
+```
+environment:
+   - MYSQL_ROOT_PASSWORD=lszt123
+```
 
 表示数据库密码设置为“lszt123” 
