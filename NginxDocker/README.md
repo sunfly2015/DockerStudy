@@ -14,7 +14,7 @@
 
 `docker run --name nginx -dp 80:80 --link testapp --volumes-from testapp nginx`
 
-##自动安装
+## 自动安装
 
 1.根据实际情况修改本目录下的docker-compose.yml文件中第9行和第10行
 
