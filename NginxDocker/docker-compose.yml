@@ -1,0 +1,11 @@
+version: "3"
+services:
+   nginx:
+      container_name: nginx
+      image: nginx:latest
+      ports:
+         - 80:80
+      volumes:
+         - /mnt/docker/nginx/config:/etc/nginx/conf.d
+         - /mnt/docker/nginx/www/html:/usr/share/nginx/html
+      restart: always
