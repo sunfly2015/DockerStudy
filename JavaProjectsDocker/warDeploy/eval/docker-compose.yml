@@ -6,6 +6,6 @@ services:
       ports:
          - 9002:8080
       volumes:
-         #- /mnt/docker/eval/tomcatconf:/usr/local/tomcat/conf
+         - /mnt/docker/eval/tomcatconf:/usr/local/tomcat/conf
          - /mnt/docker/eval/www:/usr/local/tomcat/webapps
       restart: always
