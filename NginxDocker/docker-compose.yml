@@ -5,6 +5,7 @@ services:
       image: nginx:latest
       ports:
          - 80:80
+         - 443:443
       volumes:
          - /mnt/docker/nginx/config:/etc/nginx/conf.d
          - /mnt/docker/nginx/www/html:/usr/share/nginx/html

@@ -2,8 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\JavaProjectsDocker",
-    "\\ZentaoDocker"
+    "\\JavaProjectsDocker\\jarDeploy\\Projects",
+    "\\JavaProjectsDocker\\warDeploy",
+    "\\JavaProjectsDocker\\warDeploy\\eval",
+    "\\JavaProjectsDocker\\warDeploy\\eval\\tomcatconf",
+    "\\NginxDocker"
   ],
-  "SelectedNode": "\\ZentaoDocker",
+  "SelectedNode": "\\JavaProjectsDocker\\warDeploy\\eval\\docker-compose.yml",
   "PreviewInSolutionExplorer": false
 }

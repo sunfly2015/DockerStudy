@@ -1,8 +1,12 @@
 # 各种容器安装
 
-## 安装 Java + mscode 项目容器
+## 安装 Java + jar 项目容器
 
-参考 JavaProjectsDocker/readme.md
+参考 JavaProjectsDocker/jarDeploy/readme.md
+
+## 安装 Java + war 项目容器
+
+参考 JavaProjectsDocker/warDeploy/readme.md
 
 ## 安装 MySQL 容器
 
