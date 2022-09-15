@@ -1,0 +1,13 @@
+version: "3"
+services:
+   jartest:
+      container_name: jartest
+      image: sunfly2009/centos7_java1_8:7.9.2009
+      ports:
+         - 9003:80
+      volumes:
+         - /mnt/docker/jartest/mscode:/projects
+      restart: always
+      command: ["/bin/bash"]
+      stdin_open: true
+      tty: true
