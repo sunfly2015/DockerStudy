@@ -2,7 +2,7 @@
 
 1.登录焰竹内网的容器镜像仓库
 
-`docker login gs.yanzhuhealth.com:3001 -u admin -p YanZhuHealth123`
+`docker login gs.yanzhuhealth.com:3001 -u 帐号 -p 密码`
 
 2.启动容器
 
