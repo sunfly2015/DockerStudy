@@ -1,13 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\JavaProjectsDocker",
-    "\\JavaProjectsDocker\\jarDeploy\\Projects",
-    "\\JavaProjectsDocker\\warDeploy",
-    "\\JavaProjectsDocker\\warDeploy\\eval",
-    "\\JavaProjectsDocker\\warDeploy\\eval\\tomcatconf",
-    "\\NginxDocker"
+    "\\NginxDocker",
+    "\\PHPProjectsDocker",
+    "\\PHPProjectsDocker(IncludeNginx)",
+    "\\PHPProjectsDocker(IncludeNginx)\\project",
+    "\\PHPProjectsDocker\\Projects\\TestApp2",
+    "\\PHPProjectsDocker\\Projects\\TestApp2\\public"
   ],
-  "SelectedNode": "\\JavaProjectsDocker\\warDeploy\\eval\\docker-compose.yml",
+  "SelectedNode": "\\NginxDocker\\Dockerfile",
   "PreviewInSolutionExplorer": false
 }

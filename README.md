@@ -27,3 +27,7 @@
 ## 安装 禅道 容器
 
 参考 ZentaoDocker/readme.md
+
+## 安装Ubuntu + PHP7.4FPM + Nginx 容器（同一容器内置）
+
+参考 PHPProjectsDocker(IncludeNginx)/readme.md

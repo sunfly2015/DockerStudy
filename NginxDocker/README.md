@@ -21,6 +21,7 @@
 ```
 - /mnt/docker/nginx/config:/etc/nginx/conf.d
 - /mnt/docker/nginx/www/html:/usr/share/nginx/html
+
 ```
 
 2.第9行表示宿主机“/mnt/docker/nginx/config”目录，映射到容器内nginx配置文件目录，可以根据实际情况调整本目录下的default.conf文件，然后复制到宿主机映射的nginx配置目录
